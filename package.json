@@ -1,0 +1,23 @@
+{
+  "name": "esmodule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -e js,html,css server.js"
+  },
+  "keywords": [
+    "ngrok",
+    "tunnel",
+    "secure"
+  ],
+  "author": "torsten borg",
+  "license": "ISC",
+  "description": "project to test ngrok secure tunneling to my pc",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
