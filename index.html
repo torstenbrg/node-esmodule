@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Local Server</title>
+    <title>Sailor</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p>This page is served by Express!</p>
-    <h1>Welcome to my Local Server</h1>
+    <h1>Welcome Sailor!</h1>
+    <footer>
+        <p>Served by the Express framework for Node.js.</p>
+    </footer>
+    <script type="module" src="./classes.js"></script>
+    <script type="module" src="./mercator.js"></script>
+    <script type="module">
+        import { loadBoats } from './classes.js';
+        loadBoats();
+    </script>
 </body>
 </html>

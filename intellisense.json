@@ -1,0 +1,23 @@
+{
+    "parameters": [
+      {
+        "name": "greet",
+        "type": "string",
+        "description": "Name to greet",
+        "example": "greet=Janne => Hello Janne!", 
+      },
+      {
+        "name": "great",
+        "type": "string",
+        "description": "great",
+        "example": "great=Janne => Great Janne!",
+      },      
+      {
+        "name": "calculate",
+        "type": "number",
+        "description": "Multiplies number by 2",
+        "example": "calculate=5 => 5 * 2 = 10",
+      }
+    ]
+  }
+  
